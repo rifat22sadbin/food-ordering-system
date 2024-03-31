@@ -1,7 +1,286 @@
 #include <stdio.h>
 #include <string.h>
-#include <conio.h>
 
+int main()
+{
+    system ("COLOR 2");
+    int rank_rse,div_code;
+    char a[] = "dhaka";
+    printf("\n\n\t\t\t\t\t\t\tWELCOME!!! YOU CAN CHOOSE YOUR DIVISION FROM HERE!\n\t\t\t\t **1.Chittagong ** 2.Dhaka ** 3.Barisal ** 4.Khulna ** 5.Mymensingh ** 6.Rajshahi** 7.Rangpur ** 8.Sylhet **\n");
+    printf("\t\t\t\t\t\tEnter your Division code from above(given number in  braket left side)\n");
+    scanf("%d",&div_code);
+
+    if(div_code==1)
+    {
+        printf("\t\t\t\t\t\t\t\t**Top 8 Restaurent in Chittagong**\n");
+        printf("(1) Ambrosia Restaurant Ltd \n(2) THE KABABIAN Multi Cuisine RESTAURANT\n(3) Mejjainna Bari\n(4) Tava Restaurant & Lounge\n(5) Gharana Restaurant\n(6) See Marmaid Restaurant\n(7) The Arrosto\n(8) Taste Of Chittagong\n(9) Kentucky \n(10) The Copper Chimney Restaurant\n");
+
+        printf("\t\t\t\t\t   Please enter the rank of your choosen restaurent(given in  braket left side):\n");
+        scanf("%d",&rank_rse);
+        if(rank_rse==1)
+        {
+            printf("\t\t\t\t\t\t\t\tWelcome to Ambrosia Restaurant Ltd, Chittagong!!!\n\t\t\t\t\t\t\t\t\t  You can order your food now!\n");
+        }
+        if(rank_rse==2)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to THE KABABIAN Multi Cuisine RESTAURANT, Chittagong, Chittagong!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+        if(rank_rse==3)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to Mejjainna Bari, Chittagong, Chittagong!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+        if(rank_rse==4)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to Tava Restaurant & Lounge, Chittagong, Chittagong!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+        if(rank_rse==5)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to Gharana Restaurant, Chittagong, Chittagong!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+        if(rank_rse==6)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to See Marmaid Restaurant, Chittagong, Chittagong!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+        if(rank_rse==7)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to The Arrosto, Chittagong!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+        if(rank_rse==8)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to Taste Of Chittagong, Chittagong!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+        if(rank_rse==9)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to Hazir biriyani, Chittagong!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+        if(rank_rse==10)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to Pizza hut, Chittagong!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+    }
+
+    if(div_code==2)dhaka();
+    /*{
+        printf("\t\t\t\t\t\t\t\t**Top 10 Restaurent in Dhaka**\n");
+        printf("(1) LE MERIDIEN DHAKA\n(2) Cafe Social\n(3) Sultans dines \n(4) Kacci Vai \n(5) Burgers lab \n(6) Long beach suites Dhaka \n(7) Seven spices \n(8) KFC \n(9) Hazir biriyani \n(10) Pizza hut\n");
+        printf("\t\t\t\t\t   Please enter the rank of your choosen restaurent(given in  braket left side):\n");
+        scanf("%d",&rank_rse);
+        if(rank_rse==1)
+        {
+            printf("\t\t\t\t\t\t\t\tWelcome to LE MERIDIEN, DHAKA!!!\n\t\t\t\t\t\t\t\t\t  You can order your food now!\n");
+        }
+        if(rank_rse==2)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to CAFE SOCIAL, DHAKA!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+        if(rank_rse==3)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to Sultans dines, DHAKA!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+        if(rank_rse==4)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to Kacci Vai, DHAKA!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+        if(rank_rse==5)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to Burgers lab, DHAKA!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+        if(rank_rse==6)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to Long beach suites Dhaka, DHAKA!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+        if(rank_rse==7)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to Seven spices, DHAKA!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+        if(rank_rse==8)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to  KFC, DHAKA!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+        if(rank_rse==9)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to Hazir biriyani, DHAKA!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+        if(rank_rse==10)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to Pizza hut, DHAKA!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+    }*/
+
+    if(div_code==3)
+    {
+        printf("\t\t\t\t\t\t\t\t**Top 5 Restaurent in Barishal**\n");
+        printf("(1) Western Food Restaurant\n(2) Zafran Restaurant\n(3) Honest Restaurant \n(4) Hotel Ghorowa & Restaurant\n(5) AlBaik Restaurant \n");
+        printf("\t\t\t\t\t   Please enter the rank of your choosen restaurent(given in  braket left side):\n");
+        scanf("%d",&rank_rse);
+        if(rank_rse==1)
+        {
+            printf("\t\t\t\t\t\t\t\tWelcome to Western Food Restaurant, Barishal!!!\n\t\t\t\t\t\t\t\t\t  You can order your food now!\n");
+        }
+        if(rank_rse==2)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to Zafran Restaurant, Barishal!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+        if(rank_rse==3)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to Honest Restaurant, Barishal!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+        if(rank_rse==4)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to Hotel Ghorowa & Restaurant, Barishal!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+        if(rank_rse==5)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to AlBaik Restaurant, Barishal!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+    }
+
+    if(div_code==4)
+    {
+        printf("\t\t\t\t\t\t\t\t**Top 5 Restaurent in Khulna**\n");
+        printf("(1) Bistro C\n(2) Deshi Kitchen\n(3) Wendy's Khulna \n(4) ROVERS CAFE\n(5) CityLight Cafe & Restaurant \n");
+        printf("\t\t\t\t\t   Please enter the rank of your choosen restaurent(given in  braket left side):\n");
+        scanf("%d",&rank_rse);
+        if(rank_rse==1)
+        {
+            printf("\t\t\t\t\t\t\t\tWelcome to Bistro C, Khulna!!!\n\t\t\t\t\t\t\t\t\t  You can order your food now!\n");
+        }
+        if(rank_rse==2)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to Deshi Kitchen, Khulna!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+        if(rank_rse==3)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to Wendy's Khulna, Khulna!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+        if(rank_rse==4)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to ROVERS CAFE, Khulna!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+        if(rank_rse==5)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to CityLight Cafe & Restaurant, Khulna!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+    }
+
+    if(div_code==5)
+    {
+        printf("\t\t\t\t\t\t\t\t**Top 3 Restaurent in Mymensingh**\n");
+        printf("(1) Saffron Restaurant\n(2) Chef Time Restaurant\n(3) Sarinda Restaurant\n");
+        printf("\t\t\t\t\t   Please enter the rank of your choosen restaurent(given in  braket left side):\n");
+        scanf("%d",&rank_rse);
+        if(rank_rse==1)
+        {
+            printf("\t\t\t\t\t\t\t\tWelcome to  Saffron Restaurant, Mymensingh!!!\n\t\t\t\t\t\t\t\t\t  You can order your food now!\n");
+        }
+        if(rank_rse==2)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to Chef Time Restaurant, Mymensingh!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+        if(rank_rse==3)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to Sarinda Restaurant, Mymensingh!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+    }
+    if(div_code==6)
+    {
+        printf("\t\t\t\t\t\t\t\t**Top 3 Restaurent in Rajshahi**\n");
+        printf("(1) Nanking Chinese Restaurant\n(2) Hungry Heroes\n(3) Refreshment\n");
+        printf("\t\t\t\t\t   Please enter the rank of your choosen restaurent(given in  braket left side):\n");
+        scanf("%d",&rank_rse);
+        if(rank_rse==1)
+        {
+            printf("\t\t\t\t\t\t\t\tWelcome to Nanking Chinese Restaurant, Rajshahi!!!\n\t\t\t\t\t\t\t\t\t  You can order your food now!\n");
+        }
+        if(rank_rse==2)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to Hungry Heroes, Rajshahi!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+        if(rank_rse==3)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to SRefreshment, Rajshahi!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+    }
+    if(div_code==7)
+    {
+        printf("\t\t\t\t\t\t\t\t**Top 3 Restaurent in Rangpur**\n");
+        printf("(1) Cicily\n(2) Khalek Hotel & Restaurant\n(3) Green Cafe\n");
+        printf("\t\t\t\t\t   Please enter the rank of your choosen restaurent(given in  braket left side):\n");
+        scanf("%d",&rank_rse);
+        if(rank_rse==1)
+        {
+            printf("\t\t\t\t\t\t\t\tWelcome to Cicily, Rangpur!!!\n\t\t\t\t\t\t\t\t\t  You can order your food now!\n");
+        }
+        if(rank_rse==2)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to Khalek Hotel & Restaurant, Rangpur!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+        if(rank_rse==3)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to Green Cafe, Rangpur!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+    }
+    if(div_code==8)
+    {
+        printf("\t\t\t\t\t\t\t\t**Top 3 Restaurent in Sylhet**\n");
+        printf("(1) Nawabs Kitchen\n(2) The Mad Grill\n(3) Panshi Restaurant\n");
+        printf("\t\t\t\t\t   Please enter the rank of your choosen restaurent(given in  braket left side):\n");
+        scanf("%d",&rank_rse);
+        if(rank_rse==1)
+        {
+            printf("\t\t\t\t\t\t\t\tWelcome to Nawabs Kitchen, Sylhet!!!\n\t\t\t\t\t\t\t\t\t  You can order your food now!\n");
+        }
+        if(rank_rse==2)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to The Mad Grill, Sylhet!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+        if(rank_rse==3)
+        {
+            printf("\t\t\t\t\t\t\t\t  Welcome to Sultans dines, Sylhet!!!\n\t\t\t\t\t\t\t\t\tYou can order your food now!\n");
+        }
+    }
+
+    return 0;
+}
+void dhaka()
+{
+    int rank_rse;
+    printf("\t\t\t\t\t\t\t\t**Top 10 Restaurent in Dhaka**\n");
+        printf("(1) LE MERIDIEN DHAKA\n(2) Cafe Social\n(3) Sultans dines \n(4) Kacci Vai \n(5) Burgers lab \n(6) Long beach suites Dhaka \n(7) Seven spices \n(8) KFC \n(9) Hazir biriyani \n(10) Pizza hut\n");
+        printf("\t\t\t\t\t   Please enter the rank of your choosen restaurent(given in  braket left side):\n");
+        scanf("%d",&rank_rse);
+        if(rank_rse==1)LE_MERIDIEN_DHAKA();
+
+}
+LE_MERIDIEN_DHAKA(){
+printf("\t\t\t\t\t\t\t\tWelcome to LE MERIDIEN, DHAKA!!!\n\t\t\t\t\t\t\t\t  You can order your food now!\n");
+    while (1){
+        printf ("1. Order\n2. Serve\n3. Display \n4. Homepage\n");
+
+        int in;
+        scanf ("%d", &in);
+        getchar ();
+        switch (in){
+            case 1 : {
+                order ();
+                break;
+            }
+            case 2 : {
+                receive();
+                break;
+            }
+            case 3 : {
+                display();
+                break;
+            }
+                case 4 : {
+                main();
+                break;
+        }
+
+    }
+}
+}
 struct order{
     char name[50];
     int order_number;
@@ -232,7 +511,7 @@ int display ()
     printf ("Number of Currently waiting to be served: %d\n", (order_count-served_count));
     printf ("Currently preparing food for order no. %d\n\n", p[served_count].order_number);
 }
-void items ()
+void items()
 {
     printf("..................................MENU....................................\n");
 
@@ -250,37 +529,4 @@ void items ()
     printf("[20]---------Coke-----------------------250/500mg------------------20/30\n\n");
 
 }
-int main ()
-{
-    printf ("\t\t     Welcome To Cafe Aroma\n");
-    while (1){
-        printf ("1. Order\n2. Serve\n3. Display \n4. Exit the program\n");
 
-        int in;
-        scanf ("%d", &in);
-        getchar ();
-        switch (in){
-            case 1 : {
-                order ();
-                break;
-            }
-            case 2 : {
-                receive();
-                break;
-            }
-            case 3 : {
-                display();
-                break;
-            }
-            case 4 : {
-                system ("COLOR 2");
-                printf ("We are closed come by again\n\n");
-                printf ("Project submitted by Team ERROR NOT FOUND\n\n");
-                printf ("Our hearty gratitude to honorable teacher\n\n");
-                printf ("           Md. Nasir Uddin Eisty       \n");
-                printf ("\n DEVELOPED BY Eyakub\n\n");
-                return 0;
-            }
-        }
-    }
-}
